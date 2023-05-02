@@ -1,5 +1,21 @@
 <?php include 'navbar.php' ?>
 
+ <?php
+
+
+
+$ip_address = $_SERVER['REMOTE_ADDR'];
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+
+$_duplicate_ip = mysqli_query($conn, "SELECT * FROM `visitors` WHERE user_agent= '$user_agent'");
+
+
+
+
+
+?> 
+
 
    <section id="homeSection">
       <div class="owl-carousel">

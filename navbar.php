@@ -47,6 +47,7 @@ include 'config.php';
                   <a class="nav-link" data-toggle="collapse" href="#menu1">Packages <i class="fal fa-angle-down"></i></a>
                   <div id="menu1" class="dropdown-menus collapse">
                      <a class="dropdown-item" href="pacakages.php"><span>Packages</span></a>
+                     <a class="dropdown-item" href="customzied.php"><span>Customized Plan</span></a>
                     
                      <!-- <a class="dropdown-item" href="#"><span>Development Process</span></a>
                      <a class="dropdown-item" href="#"><span>Our Clients</span></a>
@@ -70,31 +71,34 @@ include 'config.php';
                   </div>
                </li>
                <li class="nav-item"><a class="nav-link" href="feedback.php">Feedback</a></li>
-               <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+               <li class="nav-item"><a class="nav-link mr-5" href="contact.php">Contact Us</a></li>
                <?php
                if(isset($_SESSION['mobile']))
                {
-                  echo "<li class='nav-item'><a class='nav-link login' href='login.php'>Login</a></li>";
+                  echo "<li class='nav-item'><a class='nav-link logoutcolor' href='logout.php'>Logout</a></li>
+                  <li class='nav-item'><a class='nav-link myaccount' href='logout.php'>My Account</a></li>
+                  <li class='nav-item'><a class='nav-link' href='logout.php'>Trip Cart</a></li>
+                  ";
                } else{
+                  echo "<li class='nav-item'><a class='nav-link' href='login.php'>Login</a></li>";
+               }
+               
+
+               ?>
+
+               <?php
+               if(isset($_SESSION['mobile']))
+               {
                   echo "<li class='nav-item'><a class='nav-link login' href='logout.php'>Logout</a></li>";
+               } else{
+                  echo "<li class='nav-item'><a class='nav-link login' href='login.php'>Login</a></li>";
                }
                
 
                ?>
             </ul>
          </div>
-         <?php
          
-         if(isset($_SESSION['mobile']))
-         {
-            echo "<a href='logout.php' class='btn font-btn1'>Logout</a>
-            <a href='logout.php' class='btn font-btn1'>My Account</a>
-            <a href='tripcart.php' class='btn font-btn2'>Trip Cart</a>";
-         } else{
-            echo "<a href='login.php' class='btn font-btn3'><i class='fal fa-chevron-right'></i><span>Login</span></a>";
-         }
-
-         ?>
          <div id="hamburger" class="d-lg-none">
             <img src="img/menu.png" class="img01" alt="">
          </div>
