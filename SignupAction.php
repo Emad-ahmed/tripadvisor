@@ -36,7 +36,6 @@ if(isset($_POST['signup'])){
             if(mail($email, $subject, $message, $sender)){
                 $info = "We've sent a verification code to your email - $email";
                 $_SESSION['info'] = $info;
-                $_SESSION['email'] = $email;
                 $_SESSION['password'] = $password;
                 header('location: user-otp.php');
                 exit();

@@ -24,10 +24,12 @@ function TransportationList()
     if(transportlist == "Train")
     {
         var paribhantlist = '<option disabled selected>Select Train</option><option value="Suborno Express">Suborno Express</option><option value="Mohanagar Provati/Godhuli Express">Mohanagar Provati/Godhuli Express</option><option value="Ekota Express">Ekota Express</option><option value="Tista Express">Tista Express</option><option value="Parabat Express">Parabat Express</option>';
-    }
-    if(transportlist == "Bus")
+    } else if(transportlist == "Bus")
     {
         var paribhantlist = '<option disabled selected>Select Bus</option><option value="Nabil Paribahan">Nabil Paribahan</option><option value="T.R Travels">T.R Travels</option><option value="Sony Paribahan">Sony Paribahan</option><option value="Shoukhin Paribahan">Shoukhin Paribahan</option><option value="Shohag Paribahan">Shohag Paribahan</option> <option value="Sky Line">Sky Line</option> <option value="Mohanogor">Mohanogor</option> <option value="Green Line Paribahan">Green Line Paribahan</option>';
+    } else if(transportlist == "Train")
+    {
+        
     }
     document.getElementById("paribhantlist").innerHTML= paribhantlist;
 }
