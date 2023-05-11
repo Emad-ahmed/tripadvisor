@@ -50,6 +50,7 @@
             <option value="Khulna">Khulna</option>
             <option value="Mymensingh">Mymensingh	</option>
             <option value="Chittagong">Chittagong</option>
+            <option value="Barishal">Barishal</option>
     </select>
     </div>
 
@@ -67,9 +68,27 @@
             <option value="Khulna">Khulna</option>
             <option value="Mymensingh">Mymensingh</option>
             <option value="Chittagong">Chittagong</option>
+            <option value="Barishal">Barishal</option>
         </select>
     </div>
     </div>
+
+    <div class="col-lg-6">
+    <div class="mb-3">
+    <label for="">Visit Place</label>
+        <select class="form-select" aria-label="Default select example"  name="placelist" id="placelist" onchange="Placelist()">
+        </select>
+    </div>
+    </div>
+
+    <div class="col-lg-6">
+    <div class="mb-3">
+    <label for="">Select Hotel</label>
+        <select class="form-select" aria-label="Default select example"  name="hotellist" id="hotellist" onchange="Hotellist()">
+        </select>
+    </div>    
+    </div>
+
     <div class="col-lg-6">
     <div class="mb-3">
     <label for="">Transportation</label>

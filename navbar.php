@@ -42,6 +42,7 @@ include 'config.php';
             </div>
             <ul class="mb-0">
                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                <li class="nav-item"><a class="nav-link" href="index.php">Tourist Place</a></li>
                <li class="nav-item dropdown">
                   <a class="nav-link" data-toggle="collapse" href="#menu1">Packages <i class="fal fa-angle-down"></i></a>
@@ -71,12 +72,12 @@ include 'config.php';
                   </div>
                </li>
                <li class="nav-item"><a class="nav-link" href="feedback.php">Feedback</a></li>
-               <li class="nav-item"><a class="nav-link mr-5" href="contact.php">Contact Us</a></li>
+               <li class="nav-item"><a class="nav-link mr-5" href="contactus.php">Contact Us</a></li>
                <?php
                if(isset($_SESSION['mobile']))
                {
                   echo "<li class='nav-item'><a class='nav-link logoutcolor' href='logout.php'>Logout</a></li>
-                  <li class='nav-item'><a class='nav-link myaccount' href='logout.php'>My Account</a></li>
+                  <li class='nav-item'><a class='nav-link myaccount' href='profile.php'>My Account</a></li>
                   <li class='nav-item'><a class='nav-link' href='logout.php'>Trip Cart</a></li>
                   ";
                } else{
