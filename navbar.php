@@ -78,7 +78,7 @@ include 'config.php';
                {
                   echo "<li class='nav-item'><a class='nav-link logoutcolor' href='logout.php'>Logout</a></li>
                   <li class='nav-item'><a class='nav-link myaccount' href='profile.php'>My Account</a></li>
-                  <li class='nav-item'><a class='nav-link' href='logout.php'>Trip Cart</a></li>
+                  <li class='nav-item'><a class='nav-link' href='mplan.php'>My Plan</a></li>
                   ";
                } else{
                   echo "<li class='nav-item'><a class='nav-link' href='login.php'>Login</a></li>";

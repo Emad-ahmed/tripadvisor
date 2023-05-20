@@ -77,6 +77,7 @@ input {
 .contact-detail span .fb {
   color: #3b5998;
   border: 3px solid #3b5998;
+  padding-top: 0.9rem !important;
 }
 .contact-detail span .fb:hover {
   color: #fff;
@@ -86,6 +87,7 @@ input {
 .contact-detail span .insta {
   color: #833ab4;
   border: 3px solid #833ab4;
+  padding-top: 0.9rem !important;
 }
 .contact-detail span .insta:hover {
   color: #fff;
@@ -95,6 +97,7 @@ input {
 .contact-detail span .twitter {
   color: #00acee;
   border: 3px solid #00acee;
+  padding-top: 0.9rem !important;
 }
 .contact-detail span .twitter:hover {
   color: #fff;

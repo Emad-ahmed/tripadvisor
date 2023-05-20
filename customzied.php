@@ -12,6 +12,10 @@
         background-position: center top;
         margin-bottom: 100px; }
 
+        #placelist
+        {
+          height:10rem !important;
+        }
         
 </style>
 
@@ -76,7 +80,7 @@
     <div class="col-lg-6">
     <div class="mb-3">
     <label for="">Visit Place</label>
-        <select class="form-select" aria-label="Default select example"  name="placelist" id="placelist" onchange="Placelist()">
+        <select class="form-select"  aria-label="Default select example"  name="placelist" id="placelist" onchange="Placelist()" multiple>
         </select>
     </div>
     </div>
@@ -176,7 +180,7 @@
   
     
       <div class="text-center mt-2">
-      <button type="submit" class="btn btn-info col-6 pt-2">Add to Cart</button>
+      <button type="submit" class="btn btn-info col-6 pt-2">Add Plan</button>
       </div>
 
    

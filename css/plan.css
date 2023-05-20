@@ -1,0 +1,52 @@
+.carttable h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.carttable table{
+    width: 100%;
+    
+}
+
+.carttable table, td, th, tr{
+    border: 1px solid black !important;
+    text-align: center;
+    padding: 0.4rem !important;
+    color: black !important;
+}
+
+.jtable__search
+{
+    margin-top: 0.6rem !important; 
+    margin-bottom: 0.6rem !important;
+    padding-left: 0.4rem;
+}
+
+.modal-body p{
+    color: black !important;
+    font-size:1.1rem !important;
+}
+
+.bookingpolicy
+{
+    background: #28A745 !important;
+    color: white !important;
+}
+
+.waitingpay
+{
+    background: #D33D3E;
+    color: white;
+    border: none;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 0.4rem !important;
+}
+
+.contact
+{
+    font-size: 0.9rem;
+    background: #28A745;
+    color: white !important;
+    margin-top: 0.5rem;
+}

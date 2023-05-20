@@ -22,17 +22,16 @@
           <h1 class="section-title">Contact us</h1>
 
           <ul class="contact-ul">
-            <li><i class="fa fa-globe" aria-hidden="true"></i> 91, Ram Nagar, Ram Mandir, Delhi</li>
+            <li><i class="fa fa-globe" aria-hidden="true"></i> Madina Market, Sylhet</li>
 
             <li>
               <i class="fa fa-phone"></i>
-              <a href="tel:08510004495"><b>0255000XXXX</b></a>,
-              <a href="tel:08510005495"><b>0251600XXXX</b></a>
+              <a href="tel:08510004495"><b>+880 1794-937787</b></a>
             </li>
 
             <li>
               <i class="fa fa-envelope"></i>
-              <a href="mailto:pardeepkumar4bjp@gmail.com"><b> demounknown@gmail.com</b></a>
+              <a href="mailto:seguptamoni89@gmail.com"><b>seguptamoni89@gmail.com</b></a>
             </li>
           </ul>
 
